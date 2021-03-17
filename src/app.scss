@@ -1,0 +1,16 @@
+body {
+    min-height: 100vh;
+    background-image: url(./img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #043e58;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block {
+    backdrop-filter: blur(20px);
+}

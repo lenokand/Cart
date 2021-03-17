@@ -1,16 +1,20 @@
-body {
-    min-height: 100vh;
-    background-image: url(./img/bg.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #043e58;
+$primary: #cf6a5f;
+$secondary: #33455e;
+
+@import '/node_modules/bootstrap/scss/bootstrap.scss';
+@import '/node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+
+.header{
+.nav-link{
+    padding: .5rem 2rem !important;
+
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.block {
-    backdrop-filter: blur(20px);
+    .cart-informer{
+        .badge{
+            font-size: 0.67rem;
+            transform: translate(-15px,7px);
+            position: absolute;
+        }
+    }
 }
